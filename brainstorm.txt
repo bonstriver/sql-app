@@ -1,0 +1,42 @@
+User Table: 
+This table will hold information about users. Each row will be an individual user
+email:
+password:
+first name:
+last name:
+Bio:
+User ID:
+
+Recipes: → User Table, Ingredients, occasion
+recipe name:
+who created it: → user
+Ingredients: → ingredients
+description:
+Picture
+Privacy setting
+Recipe ID:
+Occasion: → occasion
+
+Ingredients:
+ingredient name:
+food type:
+Picture:
+Ingredient ID
+
+Individual User Grocery List: → ingredients user table(one to many)
+user id: → user
+ingredients id: → ingredients
+List item id
+
+Individual's Recipes: → user table (one to many), recipes
+recipe name: → recipes
+recipe id: → recipes
+user id: → users
+List item id
+
+Occasions: → recipes (one to one)
+Occasion ID
+Occasion Name
+Recipes: → Recipes
+
+
